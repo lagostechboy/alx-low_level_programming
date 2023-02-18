@@ -1,0 +1,2 @@
+/** This readme file is in the 0x00 hello world directory, basically documenting that created a script that can preprocess c program and then display the result not in the standard output but in another file
+**/
