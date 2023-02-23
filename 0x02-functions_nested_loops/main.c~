@@ -1,0 +1,9 @@
+/* main.c */
+
+#include "main.h"
+
+int _putchar(char)
+{
+  /* implementation of the function */
+return 0;
+}

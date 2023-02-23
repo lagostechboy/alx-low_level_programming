@@ -1,0 +1,19 @@
+#include <stdio.h>
+
+/** Betty commenting pattern goes here
+ *
+ * Main: this program prints _putchar to the console
+ *
+ * Return: 0 (always)
+ */
+int main(void)
+{
+char c[] = "_putchar";
+int i;
+for (i = 0; c[i] != '\0'; i++)
+{
+putchar(c[i]);
+putchar('\n');
+}
+return (0);
+}
