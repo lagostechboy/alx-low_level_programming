@@ -1,0 +1,13 @@
+#!/bin/bash
+
+# get the name of the cfile from the $CFILE environment variable
+cfile=$CFILE
+
+# extract the file name without the directory path
+filename=$(basename $cfile)
+
+# replace the .c extension with .o
+objectfile=${filename/.c/.o}
+
+# compile the C file without linking and output the object file
+gcc -c $cfile -o $objectfile
