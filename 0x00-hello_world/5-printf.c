@@ -2,7 +2,7 @@
 /**
  * main - this function prints a string to the Std output
  *
- * Retrn: (0)
+ * Return: 0 (always)
  *
  */
 
