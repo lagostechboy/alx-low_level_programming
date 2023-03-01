@@ -1,22 +1,21 @@
 #include "main.h"
 
 /**
- * int _strlen - this function return the length of a string
+ * _strlen - this function return the length of a string
  *
- * @len - integer to iterate to get string count
- * @s - integer to work as a couter
+ * @s:  pointer to take string value and increment
  *
  * Return: len;
  */
 int _strlen(char *s)
 {
-  int len = 0;
-  char str;
-  str = *s;
-  while (*s != '\0' && str)
-    {
-      len++;
-      s++;
-    }
-  return len;
+int len = 0;
+char str;
+str = *s;
+while (*s != '\0' && str)
+{
+len++;
+s++;
+}
+return (len);
 }
