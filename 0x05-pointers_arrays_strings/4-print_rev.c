@@ -3,12 +3,9 @@
 /**
  * print_rev - funtion to print a string in reverse
  *
- * @str: variable to hold string
- *
- * @i: variable to check length and iterate
+ * @s: string
  *
  * return: Always 0.
- *
  */
 
 void print_rev(char *s)
@@ -23,7 +20,7 @@ len++;
 s++;
 }
 s--;
-for (i = len -1; i >= 0; i--)
+for (i = len - 1; i >= 0; i--)
 {
 _putchar(*s);
 s--;
