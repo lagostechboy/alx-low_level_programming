@@ -3,7 +3,7 @@
 /**
  * _puts_recursion - this function prints just like puts();
  *
- * @s: the input 
+ * @s: the input
  *
  * return: string;
  */
