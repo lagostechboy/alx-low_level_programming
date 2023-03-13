@@ -5,7 +5,6 @@
  *
  * @s: takes input
  * @i: intialize a counter variable
- * @p: take on each character until the '\0'
  *
  * return: i;
  */
@@ -13,11 +12,10 @@
 int _strlen_recursion(char *s)
 {
 int i = 0;
-char *p = s;
-while (*p != '\0')
+if (*s != '\0')
 {
 i++;
-p++;
+i += _strlen_recursion(s + 1);
 }
 return i;
 }
