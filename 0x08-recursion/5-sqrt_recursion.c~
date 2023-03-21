@@ -1,0 +1,38 @@
+#include "main.h"
+
+/**
+ * _sqrt_recursion - returns the square root of a number
+ * @n: the given number to calculate square root
+ * @a, @b: increment variable
+ * Return: the square root.
+ */
+
+int _sqrt_recursion(int n)
+{
+int a = 1;
+int b = 1;
+if (n < 0)
+{
+return (-1);
+}
+if (n == 0 || n == 1)
+{
+return (n);
+}
+if (is_perfect_square(n)
+{
+return (_sqrt_recursion(n / 2) * 2);
+}
+/** base case: if there are no sqr root. */
+
+if ( a * a != b)
+{
+return (-1);
+}
+else if (a * a == b)
+{
+a++;
+return (a - 1);
+}
+/*  a recursive function to calculate sqare root */
+
