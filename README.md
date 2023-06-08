@@ -1,1 +1,1 @@
-This is a readme file for the recursion project.
+This readme file is in the parent of the 0x00 hello directory. all documentatons remains in the child dir.
