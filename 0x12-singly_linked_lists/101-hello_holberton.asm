@@ -1,20 +1,15 @@
-section .data
-format db "Hello, Holberton", 0x0a, 0
+SECTION .data
+msg:	db "Hello, Holberton", 0
+fmt:	db "%s", 10, 0
 
-section .text
-extern printf
-
-global main
-
+	SECTION .text
+	extern printf
+	global main
 main:
-; Prepare the format string address
-lea edi, [format]
+	mov esi, msg
+	mov edi, fmt
+	mov eax, 0
+	call printf
 
-; Call printf
-mov eax, 0
-call printf
-
-; Exit the program
-xor edi, edi
-mov eax, 60
-syscall
+	mov eax, 0
+	ret
